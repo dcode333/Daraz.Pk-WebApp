@@ -1,0 +1,40 @@
+.App {
+  /* text-align: center; */
+  margin: 0 auto;
+  /* background-color: #f9f8f8; */
+}
+
+/* =================ProductCard Styles==================== */
+.title--wFj93 {
+  font-size: "11px";
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  height: 32px;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price--NVB62 {
+  color: #f57224;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+
+.priceExtra--ocAYk {
+  height: 20px;
+  line-height: 20px;
+}
+
+/* =================SaleItems Styles==================== */
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(179px, max-content));
+  grid-gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px
+}
