@@ -13,7 +13,6 @@ function AppRoutes() {
     <Routes>
       <Route path="*" element={<NotFound />} />
       <Route path="/" element={<Home />} />
-      <Route path="/" element={<Home />} />
       <Route path="/product/:id" element={<ProductDetailScreen />} />
       <Route path="/register" element={<RegisterScreen />} />
       <Route path="/checkout" element={<Checkout />} />
