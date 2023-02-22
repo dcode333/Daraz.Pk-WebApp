@@ -3,11 +3,11 @@
 
 # Development mode guide
 Client side:
-cd Frontend
-cd daraz.pk
+cd Frontend =>
+cd daraz.pk =>
 npm start
 
 Server side:
-cd Backend
-nodemon app.js
+cd Backend =>
+nodemon app.js =>
 
