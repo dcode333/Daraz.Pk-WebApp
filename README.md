@@ -9,4 +9,4 @@ npm start
 
 Server side:
 cd Backend =>
-nodemon app.js 
+node app.js 
