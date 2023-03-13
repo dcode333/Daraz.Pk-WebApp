@@ -13,7 +13,8 @@ cd Backend =>
 npm i =>
 node app.js 
 
-.env file (for enviromental variables:
+.env file (for enviromental variables):
+
 client-side varaibles
 => REACT_APP_BASE_URL="Your base url"
 
