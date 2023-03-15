@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const url =
-  "mongodb+srv://admin-umair:test123@cluster0.xg387ne.mongodb.net/DarazDB";
+const url =process.env.MONGO_URL;
 
 const ConnectToMongo = () => {
   mongoose
