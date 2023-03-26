@@ -4,24 +4,27 @@
  Daraz popular Ecommerce Store cloned in React and Node
 
 # Development mode guide
-Client side:
-cd Frontend =>
-cd daraz.pk =>
-npm i =>
+
+### Client side:
+```
+cd Frontend 
+cd daraz.pk 
+npm i 
 npm start
-
-Server side:
-cd Backend =>
-npm i =>
+```
+### Server side:
+```
+cd Backend 
+npm i 
 node app.js 
+```
+### .env file (for enviromental variables): 
 
-.env file (for enviromental variables):
-
-client-side varaibles
+#### client-side varaibles
 
 => REACT_APP_BASE_URL="Your base url"
 
-server-side variables
+#### server-side variables
 
 => SECRET_KEY="Your secret key for encryption"
 
